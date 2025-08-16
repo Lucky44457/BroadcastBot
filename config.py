@@ -5,7 +5,7 @@ API_ID = int(os.environ.get("API_ID", "29812"))
 API_HASH = os.environ.get("API_HASH", "d22c2fc9b388ee45646b1d9c1a")
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002301691"))
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6197171929").split())
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://jackend44:1CamIKdwrLDXuhns@cluster0.nlnbwph.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://jackend44:dwrLDXuhns@cluster0.nlnbwph.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "BroadcastBot")
 
 # broadcast settings
